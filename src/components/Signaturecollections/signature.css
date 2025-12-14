@@ -1,0 +1,117 @@
+.signature {
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    padding: 2vw 2vw;
+    flex-direction: column;
+}
+
+.signature-texts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 1vw;
+}
+
+.signh1 {
+    line-height: 120%;
+    width: 50%;
+    font-size:3em;
+    text-transform: uppercase;
+}
+
+.signp {
+    width: 40%;
+    text-align: center;
+    line-height: 125%;
+    font-size: 1.2em;
+    padding: 2vw;
+}
+
+.signature-products {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+
+}
+
+.signpro {
+    flex: 1;
+
+    height: auto;
+    width: 30%;
+}
+
+.signpro img:hover {
+    transform: scale(0.96);
+    border-radius: 10px;
+    
+}
+
+.signpro img {
+    transition: 0.4s ease all;
+}
+
+.signpro p {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+@media (max-width:1024px) {
+
+    .signh1 {
+        font-size: 1.3em
+    }
+
+    .signp {
+        font-size: 1.2em;
+        text-align: start;
+    }
+
+    .signpro p {
+        font-size: 2.6em;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    .signature-texts {
+        flex-direction: column;
+        gap: 2em;
+        padding: 8vw 6vw;
+    }
+
+    .signh1 {
+        width: 100%;
+        font-size: 2em
+    }
+
+    .signp {
+        width: 100%;
+        font-size: 1em;
+        text-align: start;
+    }
+
+    .signature-products {
+        flex-direction: column;
+        padding: 3vw 3vw;
+        display: flex;
+    }
+
+    .signpro {
+        width: 100%;
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+    }
+
+
+    .signpro p {
+        font-size: 1.2em;
+    }
+}

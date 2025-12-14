@@ -1,0 +1,40 @@
+/* hover.css */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* background-color: white; */
+}
+
+.starburst {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.ray {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 30px;
+  background-color: black;
+  transform-origin: center;
+  transition: background-color 0.3s ease;
+}
+
+.logo-text {
+  font-family: lights;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+@media (max-width:600px) {
+  .logo-text{
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+.mainfooter {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2em; */
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+
+}
+
+.footeralltexts {
+  width: 100%;
+  min-height: 45vh;
+  padding: 1vw 1vw;
+  /* gap: 1em; */
+  /* background-color: blue; */
+  display: flex;
+}
+
+.fourbox {
+  flex: 1;
+  display: flex;
+  color: #000000;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1vw 1vw;
+  /* background-color: rgb(0, 255, 128); */
+}
+
+.useful,
+.menu,
+.followus {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 2vw 0vw;
+}
+
+.contact {
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  padding: 2vw 0vw;
+}
+
+.footesmalltexts {
+  padding: 1vw 2vw;
+  width: 100%;
+
+}
+
+
+@media (max-width: 800px) {
+  .footeralltexts {
+    flex-direction: column;
+  }
+
+
+}

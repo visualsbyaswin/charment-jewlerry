@@ -1,0 +1,35 @@
+.slider1 {
+  width: 100%;
+  overflow: hidden;
+  min-height: 70vh;
+
+}
+
+
+.slider-track1 {
+  display: flex;
+  width: 100%;
+  animation: slidings 50s linear infinite;
+}
+
+.slideritem1 {
+  flex: 0 0 auto;
+}
+
+.slideritem1 img {
+  display: block;
+  width: 100%;
+  height:
+    70vh;
+  object-fit: cover;
+  margin: 0;
+}
+
+@keyframes slidings {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* move by half the duplicated content */
+  }
+}

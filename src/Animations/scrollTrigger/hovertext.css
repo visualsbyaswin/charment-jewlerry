@@ -1,0 +1,15 @@
+.text-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-text {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.char {
+  display: inline-block;
+}

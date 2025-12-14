@@ -1,0 +1,40 @@
+.ceodetail {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    gap: 2em;
+    background-color: #fff;
+    align-items: center;
+    padding: 4vw 8vw;
+}
+
+.ceoimage {
+    width: 250px;
+    height: 200px;
+}
+
+
+.ceocontents {
+    width: 100%;display: flex;flex-direction: column;gap: 3.5em;
+}
+.ceomp p{
+    font-size: 2.1em;line-height: 120%;font-family: lights ,sans-serif;
+
+}
+
+@media (max-width:1024px) {
+.ceomp p{
+    font-size: 1.5em;line-height: 120%;
+
+}
+}
+
+@media (max-width:769px) {
+  .ceomp p{
+    font-size: 1.4em;line-height: 120%;
+
+} 
+.ceodetail{
+    flex-direction: column;    padding: 7vw 16vw;
+}
+}

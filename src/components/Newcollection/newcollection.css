@@ -1,0 +1,49 @@
+.newcollection {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.newstheading {
+    width: 100%;
+    min-height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 2vw;
+    /* background-color: purple; */
+}
+
+.newsetimages {
+    width: 100%;
+    min-height: 60vh;
+    flex-wrap: wrap;
+    padding: 3vw 1vw;
+    gap: 1em;
+    display: flex;
+    /* background-color: rgb(17, 210, 244); */
+}
+
+.newh1head h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.endoption p {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+@media (max-width:1024px) {
+.newh1head h1{
+    font-size: 2.3em;
+}
+}
+
+@media (max-width:500px) {
+    .newh1head h1{
+    font-size: 1.3em;
+    }
+
+}

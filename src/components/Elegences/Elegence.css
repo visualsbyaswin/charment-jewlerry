@@ -1,0 +1,40 @@
+.elegence {
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+.bgimg {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.textdiv {
+    width: 100%;
+    font-family: lights;
+    position: absolute;color: white;font-weight: lighter;
+    font-size: 3em;
+    
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:769px) {
+
+
+.textdiv{
+    font-size: 1.2em;
+}
+.minimalcollection{
+    flex-direction: column;
+}
+}
+.minimalcollection{
+    display: flex;
+    gap: 1em;
+    background-color: white;
+
+}

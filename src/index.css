@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: lights;
+}
+
+main{
+  position: relative
+  ;z-index: 10;
+}
+img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: lights;
+  src: url("./assets/fonts/KumbhSans-Light.ttf");
+}
+@font-face {
+  font-family: regular;
+  src: url("./assets//fonts/KumbhSans-Regular.ttf");
+}
+@font-face {
+  font-family: bol;
+  src: url("./assets/fonts/KumbhSans-Bold.ttf");
+}
+/* https://www.canva.com/design/DAGzsRHJABM/4G3VyWIKZu6FZJN2Pp5oDA/view?utm_content=DAGzsRHJABM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hed3409d095 */
