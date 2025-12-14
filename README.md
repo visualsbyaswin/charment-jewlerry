@@ -1,16 +1,65 @@
-# React + Vite
+🌟 Charment Jewelry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive eCommerce website showcasing elegant jewelry collections with smooth animations and dynamic product interactions. Perfect for browsing, adding to cart, and completing purchases with ease.
 
-Currently, two official plugins are available:
+🔹 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Browse jewelry collections by category
 
-## React Compiler
+Add products to cart & update quantities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Smooth animations for hover and scroll interactions
 
-## Expanding the ESLint configuration
+Dynamic product pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive design for mobile and desktop
+
+🛠️ Tools & Technologies Used
+
+Frontend: React, Vite, JavaScript, HTML, CSS
+
+Routing: React Router
+
+Animations: GSAP (GreenSock Animation Platform)
+
+Deployment: GitHub Pages
+
+State Management: React useState & useEffect
+
+🖼️ Screenshots / Images
+
+
+🚀 How to Run Locally
+
+Clone the repository:
+
+git clone https://github.com/your-username/charment-jewelry.git
+
+
+Navigate to the project folder:
+
+cd charment-jewelry
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open in browser: http://localhost:5173
+
+🌐 Deployment
+
+The project is deployed on GitHub Pages:
+https://visualsbyaswin.github.io/charment-jewlerry/
+
+📌 Notes
+
+Ensure images are in the public folder for correct rendering
+
+Adjust GSAP animation settings for better performance on mobile
