@@ -1,17 +1,18 @@
 .herosection {
 width: 100%;
     background-color: #000000;
-    position: relative;
+    position: relative;background-image: url("../../assets/homepageimg.avif");
     min-height: 100vh;
     z-index: 2;
-    overflow: hidden;
+    overflow: hidden;background-size:  cover;
+    background-position: center;background-attachment: fixed;
     top: 0px;
 }
 
 .backgroundimagehero {
     width: 100%;
     margin-left: 7em;
-    height: 100vh;user-select: none;
+ user-select: none;
 }
 
 .homecontents {

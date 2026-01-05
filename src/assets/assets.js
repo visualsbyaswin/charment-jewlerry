@@ -68,18 +68,18 @@ export const Signaturecollection = [
   {
     id: "1",
     image: test7,
-    link: "/minimalelegence",
+    link: "/charment-jewlerry/minimalelegence",
     name: "Minimalist Elegance",
   },
   {
     id: "2",
     image: test5,
-    link:"/bridalbliss",
+    link:"/charment-jewlerry/bridalbliss",
     name: "Bridal Bliss",
   },
   {
     id: "3",
-        link:"/timelessclassics",
+        link:"/charment-jewlerry/timelessclassics",
     image: test3,
     name: "Timeless Classics",
   },

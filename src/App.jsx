@@ -19,18 +19,17 @@ function App() {
   return (
     <>
       <main>
-        <Navbar />
+      <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/charment/" element={<Home />} />
-          <Route path="/minimalelegence" element={<Minimal />} />
-          <Route path="/bridalbliss" element={<Bridal />} />
-          <Route path="/timelessclassics" element={<Timeless />} />
-          <Route path="/shop" element={<Shop />} />
-  <Route path="/checkout/:slug" element={<Checkout />} />
+          <Route path="/charment-jewlerry" element={<Home />} />
+          <Route path="/charment-jewlerry/minimalelegence" element={<Minimal />} />
+          <Route path="/charment-jewlerry/bridalbliss" element={<Bridal />} />
+          <Route path="/charment-jewlerry/timelessclassics" element={<Timeless />} />
+          <Route path="/charment-jewlerry/shop" element={<Shop />} />
+          <Route path="/charment-jewlerry/checkout/:slug" element={<Checkout />} />
 
-            
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/charment-jewlerry/contact" element={<Contact />} />
         </Routes>
         <Page6 />
       </main>

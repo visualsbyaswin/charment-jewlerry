@@ -16,3 +16,19 @@ import slider10 from "./slider10.avif";
 export const images = [slider1,slider2,slider3,slider4,slider5];
 
 export const images2 = [slider6,slider7,slider8,slider9,slider10];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

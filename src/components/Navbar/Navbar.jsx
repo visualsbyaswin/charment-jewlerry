@@ -24,12 +24,12 @@ const Navbar = () => {
     <header className={`header ${scrolled?"active":""}`}>
       <div className="headerimg">
 
-       <Link to="/"> <HoverLogo/></Link>
+       <Link to="/charment-jewlerry"> <HoverLogo/></Link>
       </div>
       <nav className="navbar">
         <ul>
-       <Link to="/shop">   <li>shop</li></Link>
-         <Link to="/contact"><li>Contact</li></Link>
+       <Link to="charment-jewlerry/shop">   <li>shop</li></Link>
+       <Link to="charment-jewlerry/contact"><li>Contact</li></Link>
         </ul>
         <div>
           <MailIcon/>

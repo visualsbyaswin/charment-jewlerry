@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="herosection">
       <div className="backgroundimagehero">
-        <img src={assets.heroimg} alt="" />
+   
       </div>
       <div className="homecontents">
         <div className="childs">
